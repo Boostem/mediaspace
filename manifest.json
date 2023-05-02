@@ -1,13 +1,12 @@
 {
   "name": "Mediaspace Download",
-  "description": "UIUC mediaspace download",
+  "description": "GaTech mediaspace download",
   "manifest_version": 3,
   "version": "0.0.1",
   "host_permissions": [
     "https://mediaspace.gatech.edu/*"
   ],
   "action": {
-    "default_popup": "popup.html",
     "devtools_page": "devtools.html"
   }
 }
